@@ -21,22 +21,25 @@ Make sure before you start this course you have your fav IDE- IntellJ , Maven an
    (b) When connection to GitHub has been established, the Share Project on GitHub dialog opens. Specify the new repository name, the name of the remote , and enter a description of your project.
 
 4- Right Click "CascadeApplication" and Run "CascadeApplicaiton main()", next open URL: http://localhost:8080/
-   This will display "Whitelabel Error Page" indicating page has loaded successfully. 
+   This will display "Whitelabel Error Page" indicating page has loaded successfully.
+   
+notes/1.0_BasicSetup.md
 
 ***Tag 1.1  ==> Build Sample SpringBoot application from scratch***
 
 -------------------------------------------------------------------------------------------------------------
-notes/CreateLoginPage.md
-notes/2.1RequestResponse.md
+notes/2.0_CreateLoginPage.md
+notes/2.1_RequestResponse.md
 
 **Tag 2.1  ==> Creating Login page and understanding request response**
 -------------------------------------------------------------------------------------------------------------
-notes/UnderstandingSpringBootFlow.md
+notes/3.0_UnderstandingSpringBootFlow.md
 
 **Tag 3.0 ==> Demystifying SpringBoot flow** 
 -------------------------------------------------------------------------------------------------------------
+notes/4.0_MyFirstJSP.md
 
-
+Tag 4.0 ==> Creating JSP
 -------------------------------------------------------------------------------------------------------------
 
 
