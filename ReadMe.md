@@ -22,15 +22,18 @@ Make sure before you start this course you have your fav IDE- IntellJ , Maven an
 
 4- Right Click "CascadeApplication" and Run "CascadeApplicaiton main()", next open URL: http://localhost:8080/
    This will display "Whitelabel Error Page" indicating page has loaded successfully. 
-   
-Tag 1.1 created here
+
+***Tag 1.1  ==> Build Sample SpringBoot application from scratch***
+
 -------------------------------------------------------------------------------------------------------------
 notes/CreateLoginPage.md
 notes/2.1RequestResponse.md
-Tag 2.1 created
+
+**Tag 2.1  ==> Creating Login page and understanding request response**
 -------------------------------------------------------------------------------------------------------------
+notes/UnderstandingSpringBootFlow.md
 
-
+**Tag 3.0 ==> Demystifying SpringBoot flow** 
 -------------------------------------------------------------------------------------------------------------
 
 
