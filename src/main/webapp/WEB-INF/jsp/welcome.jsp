@@ -5,7 +5,7 @@
 </head>
 
 <body>
-<h1> My First JSP!! Welcome ${name} , your password is ${password} </h1>
+<h1> My First JSP!! Welcome ${name} </h1>
 </body>
 
 </html>
