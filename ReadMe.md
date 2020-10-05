@@ -8,7 +8,7 @@ Make sure before you start this course you have your fav IDE- IntellJ , Maven an
    Make sure to use Java 1.8, add dependencies - Spring Boot Starter Web and SpringBoot Devtools
    Note - we used spring initializer to initialize/bootstrap our application. 
     
-2- Open IntellijIdea => File =>  import ==> project from existing sources ==> select pom from above archvie. 
+2- Open IntellijIdea => File =>  import ==> project from existing sources ==> select pom from above archive. 
    This will load all the dependencies required to build the project.
    Note- Once project is imported, you will notice, a maven project would be created which always have a defined structure and 3 most important files: 
    - src/main/java/<groupid-that-you-defined>/_CascadeApplication.java_ 
@@ -54,9 +54,17 @@ notes/07_FirstHTMLForm.md
 -------------------------------------------------------------------------------------------------------------
 notes/08_ValidateUserAndPassword.md
 
-**Tag 9.0 => Validate user credentials else throw error**
+**Tag 8.0 => Validate user credentials else throw error**
 -------------------------------------------------------------------------------------------------------------
+notes/09_Autowiring_Component_concepts.md
 
+**Tag 9.0 ==> Annotations used in Spring**
+
+src/main/java/com/ib/csg/cascade/model/ToDo.java
+src/main/java/com/ib/csg/cascade/service/TodoService.java
+src/main/java/com/ib/csg/cascade/controller/ToDoController.java
+src/main/webapp/WEB-INF/jsp/list-todos.jsp
+**Tag 9.1 ==> Adding Todo Service and controler and displaying simple todo message on screen.** 
 -------------------------------------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------------------------------------

@@ -4,7 +4,7 @@
 ## Spring MVC Request Flow
 - DispatcherServlet receives HTTP Request.
 - DispatcherServlet identifies the right Controller based on the URL. By /login it checks which controller is responsible to serve this request.  
-- Controller executes Business Logic. Heree all calculations and business logic is done. 
+- Controller executes Business Logic. Here all calculations and business logic is done. 
 - Controller returns a) Model b) View Name Back to DispatcherServlet.  
 - DispatcherServlet identifies the correct view (ViewResolver) by checking config details passed to it through application.properties
 - DispatcherServlet makes the model available to view and executes it.

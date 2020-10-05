@@ -12,11 +12,11 @@ ValidateService validate = new ValidateService();
 Tested, and it works until now. 
 
 
-Next, we see that ValidateService is dependency of LoginController. So we need to declare it as dependecy so that we need not instantiate it for calling its methods. 
+Next, we see that ValidateService is dependency of LoginController. So we need to declare it as dependency so that we need not instantiate it for calling its methods. 
 That's where SpringBoot comes in and helps with Dependency Injection framework. 
 Dependencies will be automwired and beans would automatically be created. 
 To acheive this we need to do two things:
-(a) Declare Service as dependency - Spring bean is created ==> use @Component
+(a) Declare Service as dependency - Spring bean is created ==> use @Component, then entire lifecycle of bean would be managed by Spring. 
 (b) Ensure auto configration or dependency injection works ==> @AutoWired
 
 
