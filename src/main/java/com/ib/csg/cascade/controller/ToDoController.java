@@ -19,8 +19,10 @@ public class ToDoController {
 
   @RequestMapping(value = "/list-todos", method = RequestMethod.GET)
 
-  public String showtodoList()
+  public String showtodoList(ModelMap map)
+
   {
+    map.put("todos", service.retrivetoDos("nitin")); // harcoding to retrive todos for nitin.
     return "list-todos";
   }
 

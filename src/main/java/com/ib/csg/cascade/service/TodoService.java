@@ -21,7 +21,7 @@ public class TodoService {
         toDos.add(new ToDo(3,"jia", "Learn abcd", new Date(), false));
         toDos.add(new ToDo(4,"silky", "do home job", new Date(), false));
         toDos.add(new ToDo(5,"tarun", "learn spring cloud", new Date(), false));
-        toDos.add(new ToDo(6,"vicky", "learn database", new Date(), false));
+        toDos.add(new ToDo(6,"vicky", "do home job", new Date(), false));
     }
 
     // Retrieving data, this will return another List - filteredTodo
@@ -30,11 +30,12 @@ public class TodoService {
         //define another list
         List<ToDo> filteredTodo = new ArrayList<ToDo>();
         for(ToDo todo:toDos){
-            if(todo.equals(user)){
+            if(todo.getUser().equals(user)){
                 filteredTodo.add(todo);
             }
 
         }
+        System.out.println(filteredTodo);
         return filteredTodo;
     }
 
