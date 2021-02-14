@@ -6,8 +6,8 @@ package com.ib.csg.cascade.service;
 
 import org.springframework.stereotype.Component;
 
-@Component  // adding @component will atomatically register this service and spring boot will create beans and instantiate objects
-           // at runtime. No need to do tight coupling by instantiation in contoller.
+@Component  // adding @component will automatically register this service and spring boot will create beans and instantiate objects
+           // at runtime. No need to do tight coupling by instantiation in controller.
 
 public class ValidateService {
 

@@ -9,6 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class CascadeApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(CascadeApplication.class, args);
 	}
 

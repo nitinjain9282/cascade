@@ -11,7 +11,11 @@
 - @Controller:  its specialization of @Component. Its typically used in context of web applications. Typically in MVC. it's generally used for Service, Controller, or Repository too. 
 - @Service:  Any component which has business logic in it, we use @Service for it.
 - @repository:  its typically used in terms of datastore like JPA etc. to save data to database. 
-- @Autowired: Controller is saying to autowire this service so that whenever control need instantiation of service its automatically done by Spring. if we remove it we will get null pointer exception. 
+
+- @Autowired: Controller is saying to autowire this service so that whenever control need instantiation of service its automatically done by Spring.
+  if we remove it we will get null pointer exception.
+
+
 - @ComponentScan: it defines Spring scope for packages and subpacakges wheere Components can be found. If we define @Component outside its scope it won't be picked up. 
   @SpringBootApplication is inherently defining @ComponentScan on package where its used. 
   
