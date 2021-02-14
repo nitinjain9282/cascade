@@ -9,6 +9,7 @@
 
 <h1> This is displaying list of ToDos for nitin : ${todos} </h1>
 
+<h1> Welcome ${name} ! How are you doing? </h1>
 
 </body>
 

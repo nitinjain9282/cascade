@@ -9,27 +9,26 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.SessionAttributes;
 
 
 @Controller
+@SessionAttributes("name")
 public class ToDoController {
-  @Autowired
-  TodoService service; // Autowiring ToDoService for automatic management of bean
+    @Autowired
+    TodoService service; // Autowiring ToDoService for automatic management of bean
 
 
-  @RequestMapping(value = "/list-todos", method = RequestMethod.GET)
+    @RequestMapping(value = "/list-todos", method = RequestMethod.GET)
 
-  public String showtodoList(ModelMap map)
+    public String showtodoList(ModelMap model) {
+        String name = (String) model.get("name");  // type cast since right part was object.
+        model.put("todos", service.retrivetoDos(name));
 
-  {
-    map.put("todos", service.retrivetoDos("nitin")); // harcoding to retrive todos for nitin.
-    return "list-todos";
-  }
-
+        return "list-todos";
 
 
-
-
+    }
 
 
 }

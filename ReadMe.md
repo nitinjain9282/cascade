@@ -75,14 +75,11 @@ src/main/webapp/WEB-INF/jsp/list-todos.jsp
 
 ###### Tag 9.3 ==> Adding Todo Service and controller and displaying simple todo message on screen.
 -------------------------------------------------------------------------------------------------------------
+notes/10.Architecture_web_Applications.md
 
+notes/11.SessionAttributes.md
 
-
-
-
-
-
-
+###### Tag 10 ==> Adding Session Attribute to persist "name" value across sessions
 -------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------
